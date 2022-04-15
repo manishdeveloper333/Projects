@@ -1,6 +1,6 @@
 # ✨My-Projects 💡 
 
-<img src="html-tutorial.png" width ="100px"><img src="mycss.png" width ="80px"><img src="JavaScript-Logo.png" width="159px" margin-left:220px>
+<img src="html-tutorial.png" width ="100px"><img src="mycss.png" width ="80px"><img src="JavaScript-Logo.png" width="159px" >
 
 
 
