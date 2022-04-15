@@ -20,4 +20,4 @@
 
 <a href="https://manishdeveloper333.github.io/template demo 4.html"> 05. Project-Email Template</a>
 
-<a href="https://manishdeveloper333.github.io/Project/window slide box.html">06. Project-login</a>
+<a href="https://manishdeveloper333.github.io/Projects/window slide box.html">06. Project-login</a>
