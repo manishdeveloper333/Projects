@@ -18,4 +18,4 @@
 <a href="https://manishdeveloper333.github.io/Projects/web page -login page.html">04. Project-login</a>
 
 
-<a href="https://manishdeveloper333.github.io/template demo 4.html"> DEMP5</a>
+<a href="https://manishdeveloper333.github.io/template demo 4.html"> 05. Project-Email Template</a>
