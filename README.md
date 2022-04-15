@@ -39,6 +39,6 @@
 <a href="https://manishdeveloper333.github.io/Projects/w3layout1.html">12.Project-W3 layout</a>
 
 
-<a href="https://manishdeveloper333.github.io/Projects/w3layout3.html">12.Project-W3 layout2</a>
+<a href="https://manishdeveloper333.github.io/Projects/w3layout3.html">13.Project-W3 layout2</a>
 
 
