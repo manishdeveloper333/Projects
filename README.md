@@ -1,7 +1,7 @@
 # ✨My-Projects 💡 
 
-<img src="html-tutorial.png" width ="50px">
-<img src="111cs.png" width ="50px">
+<img src="html-tutorial.png" width ="50px"><img src="mycss.png" width ="50px">
+
 <img src="JavaScript-Logo.png" width="50px">
 
 
