@@ -30,4 +30,4 @@
 <a href="https://manishdeveloper333.github.io/GOOGLE logo demo.html"> 09. Google logo</a>
 
 
-<a href="https://manishdeveloper333.github.io/kolgrid.html"> 10. Grid </a>
+<a href="https://manishdeveloper333.github.io/kolgrid.html"> 10. Grid box </a>
