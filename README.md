@@ -1,4 +1,4 @@
-# ✨My-Projects 💡 <img src="-team-company-text-service.png" width ="150px">
+# ✨My-Projects 💡 
 Html ,Css ,Javascript
 <h2>About HTML</h2>  <img src="insta.png" width ="50px">
 
