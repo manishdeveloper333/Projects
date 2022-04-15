@@ -50,9 +50,9 @@
 
 <a href="https://manishdeveloper333.github.io/Projects/javascript project- Login.html">17.Project-login</a>
 
-<a href="https://manishdeveloper333.github.io/Projects/javascript project-dropdown.html">18.Project-dropdown</a>
+<a href="https://manishdeveloper333.github.io/Projects/javascript project-dropdown.html">18.Project-Dropdown</a>
 
-<a href="https://manishdeveloper333.github.io/Projects/javascript project-pop up closed.html">19.Project-pop</a>
+<a href="https://manishdeveloper333.github.io/Projects/javascript project-pop up closed.html">19.Project-Pop up </a>
 
 
 
