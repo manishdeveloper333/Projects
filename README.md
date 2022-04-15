@@ -6,13 +6,13 @@
 <img src="light-removebg-preview.png" width ="70px"><img src="light-removebg-preview.png" width ="70px"><img src="light-removebg-preview.png" width ="70px">
 
 
-<a href="https://manishdeveloper333.github.io/table basic 2.html">01. project- table</a>
+<a href="https://manishdeveloper333.github.io/table basic 2.html">01. Project- table</a>
 
 
-<a href="https://manishdeveloper333.github.io/form google map.html">02. project- Form google map</a>
+<a href="https://manishdeveloper333.github.io/form google map.html">02. Project- Form google map</a>
 
 
-<a href="https://manishdeveloper333.github.io/Projects/web page 1.html">03. t- Form google map</a>
+<a href="https://manishdeveloper333.github.io/Projects/web page 1.html">03. Project- web temp</a>
 
 
-<a href="https://manishdeveloper333.github.io/Projects/web page -login page.html">login</a>
+<a href="https://manishdeveloper333.github.io/Projects/web page -login page.html">04. Project-login</a>
