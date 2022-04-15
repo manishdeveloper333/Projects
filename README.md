@@ -6,7 +6,7 @@
 <img src="light-removebg-preview.png" width ="70px"><img src="light-removebg-preview.png" width ="70px"><img src="light-removebg-preview.png" width ="70px">
 
 
-<a href="https://manishdeveloper333.github.io/table basic 2.html">web case 2</a>
+<a href="https://manishdeveloper333.github.io/table basic 2.html">01. project- table</a>
 
 
 
