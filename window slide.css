@@ -1,0 +1,26 @@
+.bg1 {
+  background-color: turquoise;
+}
+.bg2 {
+  background-color: turquoise;
+}
+.bg3 {
+  background-color: turquoise;
+}
+.bg4 {
+  background-color: tomato;
+}
+.bg11 {
+  background-color: rgb(224, 71, 255);
+}
+.bg21 {
+  background-color: blue;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 10% 20%;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-column-gap: 13px;
+  grid-row-gap: 30px;
+}
