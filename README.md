@@ -54,7 +54,7 @@
 
 <a href="https://manishdeveloper333.github.io/Projects/javascript project-pop up closed.html">19.Project-Pop up </a>
 
-<a href="https://manishdeveloper333.github.io/Projects/flipkart.html">20.Project-Pop up </a>
+<a href="https://manishdeveloper333.github.io/Projects/flipkart.html">20.Project-Flipkart</a>
 
 
 
