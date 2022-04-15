@@ -32,8 +32,13 @@
 
 <a href="https://manishdeveloper333.github.io/kolgrid.html"> 10.Project-Grid box </a>
 
+
 <a href="https://manishdeveloper333.github.io/calender-grid.html"> 11.Project- Calender </a>
 
-<a href="https://manishdeveloper333.github.io/Projects/w3layout1.html">12. Project-window box</a>
+
+<a href="https://manishdeveloper333.github.io/Projects/w3layout1.html">12.Project-W3 layout</a>
+
+
+<a href="https://manishdeveloper333.github.io/Projects/w3layout3.html">12.Project-W3 layout2</a>
 
 
