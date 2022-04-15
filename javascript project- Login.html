@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: Georgia, 'Times New Roman', Times, serif; text-transform: capitalize;}
+body{
+    background-image: url(wallpaper.jpg);
+}
+#head{height: 120px;width: 100%;
+    background-color: rgba(218, 112, 214, 0.432);
+}
+button{font-size: 2rem;border: 3px solid cyan ; border-radius: 20px;padding: 20px;background-color: rgba(139, 0, 139, 0.432);
+    margin: 10px;float: right;margin-top: 20px;
+}
+#login{font-size: 2rem;border: 3px solid deeppink;margin-top: 6em; margin-left: 23.8em;
+    width: 20%; height: 10em; text-align: center;display: none;background-color: rgba(139, 0, 139, 0.432);
+     border-radius: 20px;padding: 40px;}
+    
+ #reg{ font-size: 2rem;border: 3px solid deeppink ;padding: 40px;display: none;
+   width: 20%; height: 15em; text-align: center;background-color: rgba(139, 0, 139, 0.432);
+     border-radius: 20px;margin-top: 4em; margin-left: 23.9em;}
+
+      input{
+            width: 100%; height: 60px;border: 2px solid deeppink ;border-radius: 20px;text-align: center;margin: 10px;font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <button onclick="user('r')">registration</button>
+        <button onclick="user('l')">login</button>
+        
+    </div>    
+    
+    <div id="login">
+        <form method="post">
+            <input type="email" name="uid" placeholder="enter your email">
+            <input type="password" name="number" placeholder="enter your password">
+            <input type="submit" name="go" value="login">
+        </form>
+        <br>
+        <br>
+    </div>
+    <div id="reg">
+        <form method="post">
+            <input type="text" name="fname" placeholder="fname enter">
+            <input type="text" name="lname" placeholder="lname enter">
+            <input type="email" name="uid" placeholder="enter your email">
+            <input type="password" name="number" placeholder="enter your password">
+            <input type="submit" name="go" value="register">
+        </form>
+    </div>
+    <script>
+        function user(opp)
+        {
+            if (opp==='r')
+            {
+             document.getElementById('login').style.display='none';
+             document.getElementById('reg').style.display='block';
+            }
+            if (opp==='l')
+            {
+             document.getElementById('reg').style.display='none';
+             document.getElementById('login').style.display='block';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+    </div>    
+
+
+
+    </div>
+</body>
+</html>
