@@ -1,6 +1,5 @@
 # ✨My-Projects 💡 
 Html ,Css ,Javascript
-<img src="insta.png" width ="50px">
 <img src="html-tutorial.png" width ="50px">
 
 
