@@ -21,4 +21,4 @@
 <a href="https://manishdeveloper333.github.io/template demo 4.html"> 05. Project-Email Template</a>
 
 
-<a href="https://manishdeveloper333.github.io/web-2.html"> 05. Project-final Template</a>
+<a href="https://manishdeveloper333.github.io/Projects/web-2.html"> 05. Project-final Template</a>
