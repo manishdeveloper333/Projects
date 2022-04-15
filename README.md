@@ -5,4 +5,4 @@
 
 
 
-<a href="https://manishdeveloper333.github.io/web-template-by-table/form google map.html">Project<img src="light-removebg-preview.png" width ="70px"> Map 🗺 +form </a>
+<a href="https://manishdeveloper333.github.io/web-template-by-table/form google map.html"><img src="light-removebg-preview.png" width ="70px"Project> Map 🗺 +form </a>
