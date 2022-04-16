@@ -1,323 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flikart</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        *{
+        * {
             margin: 0;
-            padding: 0; text-transform: capitalize;font-family: 'Raleway', sans-serif;
+            padding: 0;
+            text-transform: capitalize;
+            font-family: 'Raleway', sans-serif;
             box-sizing: border-box;
         }
-        body{
-            background-image: url(wallpaper1.jpg);
+
+        body {
+            background-image: url(wallpaper-flipk.jpg);
         }
-        .head{
+
+        .head {
             width: 100%;
             height: 70px;
             background-color: blue;
         }
-        .wraped{
+
+        .wraped {
             width: 80%;
             margin: auto;
         }
-        .icon{margin: 0;
+
+        .icon {
+            margin: 0;
             line-height: 70px;
-            width:19%; float: left;
+            width: 19%;
+            float: left;
         }
-        .icon a{
-            text-decoration: none; font-size: 1.5rem; color: white;font-family:Riona;  font-weight: bold; font-style:oblique;
-        }
-        .menu{margin: 20px;
-            width: 42%;float: left;
-        }
-        .menu1{
-            width:70%;float: right;
-        }
-        .menu1 ul{
-           text-align: right;margin-top: -90px;
-        }
-        .menu1 ul li{
-            display: inline; line-height: 100px;
-        }
-        .menu1 ul li a{text-decoration: none;color: white;
-            font-size: 1.2rem;font-family:Riona; word-spacing: 2px;
-            border-radius: 30px 12px 20px;padding: 1%;}
 
-        .menu1 ul li a:hover{background-color: white; color: black;
-    
-    }
-  
-    
-    input{line-height: 100px;
-        padding: 10px;
-        font-size: 13px;
-        border: 2px solid grey;
-        float: left;height: 37px;
-        width: 80%;
-        background: whitesmoke;
+        .icon a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+            font-family: Riona;
+            font-weight: bold;
+            font-style: oblique;
+        }
 
-    }
+        .menu {
+            margin: 20px;
+            width: 55%;
+            float: left;
+        }
+
+        .menu1 {
+            width: 70%;
+            float: right;
+        }
+
+        .menu1 ul {
+            text-align: right;
+            margin-top: -90px;
+        }
+
+        .menu1 ul li {
+            display: inline;
+            line-height: 100px;
+        }
+
+        .menu1 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-family: Riona;
+            word-spacing: 2px;
+            border-radius: 30px 12px 20px;
+            padding: 1%;
+        }
+
+        .menu1 ul li a:hover {
+            background-color: white;
+            color: black;
+
+        }
 
 
-    #ex{
-        font-size: 1rem;color: whitesmoke;
-    }
-    #more{
-        font-size: 1rem;
-        color: rgb(255, 238, 0);
-    }
-    .fa-search{
-        color: black;padding: 10px;
-    }
-    .log{
-        color: black; background-color: white;line-height: 20px;
-    }
-    .fa-cart-shopping{
-        font-size: 0.90rem;
-    }
-    .fa-chevron-down{
-        font-size: 0.90rem;
-    }
-.log{
-    width: 100px; height: 35px;
-}
-       .head2{
-          width: 100%;
+        input {
+            line-height: 100px;
+            padding: 10px;
+            font-size: 13px;
+            border: 2px solid grey;
+            float: left;
+            height: 37px;
+            width: 80%;
+            background: whitesmoke;
+
+        }
+
+
+        #ex {
+            font-size: 1rem;
+            color: whitesmoke;
+        }
+
+        #more {
+            font-size: 1rem;
+            color: rgb(255, 238, 0);
+        }
+
+        .fa-search {
+            color: black;
+            padding: 10px;
+        }
+
+        .log {
+            color: black;
+            background-color: white;
+            line-height: 20px;
+        }
+
+        .fa-cart-shopping {
+            font-size: 0.90rem;
+        }
+
+        .fa-chevron-down {
+            font-size: 0.90rem;
+        }
+
+        .log {
+            width: 100px;
+            height: 35px;
+        }
+
+        .head2 {
+            width: 100%;
             height: 44px;
             background-color: white;
         }
-        .wraped2{
+
+        .wraped2 {
             width: 90%;
             margin: auto;
         }
-        #icon2{
-            width:80%;float: left; 
+
+        #icon2 {
+            width: 80%;
+            float: left;
         }
-        #icon2 ul{
-           text-align:left;margin-top: -48px;
+
+        #icon2 ul {
+            text-align: left;
+            margin-top: -48px;
         }
-        #icon2 ul li{
+
+        #icon2 ul li {
             display: inline;
         }
-     
 
-       
 
-        #first{  
-            display: none; position: absolute; top: 9.5em; margin-left: 3%;line-height: 30px;
 
-        }
-        #second{
-            display: none; position: absolute; top: 9.5em;margin-left: 14%;line-height: 30px;
-        }
-        #third{
-            display: none; position: absolute; top:  9.2em;margin-left: 27%;line-height: 30px;
+
+        #first {
+            display: none;
+            position: absolute;
+            top: 9.5em;
+            margin-left: 30px;
+            line-height: 30px;
 
         }
-        #fourth{
-            display: none; position: absolute; top: 9.2em;margin-left: 37.5%;line-height: 30px;
+
+        #second {
+            display: none;
+            position: absolute;
+            top: 9.5em;
+            margin-left: 205px;
+            line-height: 30px;
+        }
+
+        #third {
+            display: none;
+            position: absolute;
+            top: 9.2em;
+            margin-left: 430px;
+            line-height: 30px;
 
         }
-        #fifth{
-            display: none; position: absolute; top: 9.2em; margin-left: 48.5%;line-height: 30px;
+
+        #fourth {
+            display: none;
+            position: absolute;
+            top: 9.2em;
+            margin-left: 580px;
+            line-height: 30px;
 
         }
-        #first ul{width: 90px;
-            position: absolute;background-color: white; border-radius:0px 0px 10px;padding: 10px;
+
+        #fifth {
+            display: none;
+            position: absolute;
+            top: 9.3em;
+            margin-left: 760px;
+            line-height: 30px;
+
         }
-     
-        #first ul li a{ color:black;
+
+        #first ul {
+            width: 90px;
+            position: absolute;
+            background-color: white;
+            border-radius: 0px 0px 10px;
+            padding: 10px;
+        }
+
+        #first ul li a {
+            color: black;
             text-decoration: none;
         }
-        #first ul li a:hover{background-color: blue;
-        color: white;}
 
-
-        #second ul{width: 98px;
-            position: absolute;background-color: white; border-radius:0px 0px 10px;padding:10px;
+        #first ul li a:hover {
+            background-color: blue;
+            color: white;
         }
-        #second ul li a{color:black;
+
+
+        #second ul {
+            width: 98px;
+            position: absolute;
+            background-color: white;
+            border-radius: 0px 0px 10px;
+            padding: 10px;
+        }
+
+        #second ul li a {
+            color: black;
             text-decoration: none;
         }
-        #second ul li a:hover{background-color: blue;
-        color: white;}
+
+        #second ul li a:hover {
+            background-color: blue;
+            color: white;
+        }
 
 
-        #third ul{width: 98px;
-            position: absolute;background-color: white; border-radius:0px 0px 10px;padding: 13px;
-                }
-        #third ul li a{color:black ;
+        #third ul {
+            width: 98px;
+            position: absolute;
+            background-color: white;
+            border-radius: 0px 0px 10px;
+            padding: 13px;
+        }
+
+        #third ul li a {
+            color: black;
             text-decoration: none;
         }
-        #third ul li a:hover{background-color: blue;
-        color: white;}
 
-
-        #fourth ul{width: 80px;
-            position: absolute;background-color: white; border-radius:0px 0px 10px;padding: 10px;
+        #third ul li a:hover {
+            background-color: blue;
+            color: white;
         }
-        #fourth ul li a{color:black ;
+
+
+        #fourth ul {
+            width: 80px;
+            position: absolute;
+            background-color: white;
+            border-radius: 0px 0px 10px;
+            padding: 10px;
+        }
+
+        #fourth ul li a {
+            color: black;
             text-decoration: none;
         }
-        #fourth ul li a:hover{background-color: blue;
-        color: white;}
+
+        #fourth ul li a:hover {
+            background-color: blue;
+            color: white;
+        }
 
 
-        #fifth ul{width: 92px;
-            position: absolute;background-color: white; border-radius:0px 0px 10px;padding: 10px;
-        }    
-        #fifth ul li a{color:black ;
+        #fifth ul {
+            width: 100px;
+            position: absolute;
+            background-color: white;
+            border-radius: 0px 0px 10px;
+            padding: 10px;
+        }
+
+        #fifth ul li a {
+            color: black;
             text-decoration: none;
         }
-        #fifth ul li a:hover{background-color: blue;
-        color: white;}
+
+        #fifth ul li a:hover {
+            background-color: blue;
+            color: white;
+        }
 
 
-        #icon2 ul li  button{position: relative;
-            font-size:2.2rem; 
-        border: 1px solid white;
-           padding: 10px;
-           background-color: white;margin-top: -20px;
-            font-size: 1.2rem;font-family:Riona; 
-            border-radius:20px; margin: 30px;}
-        
-       #icon2 ul li  button:hover{
-        color: blue;
+        #icon2 ul li button {
+            position: relative;
+            font-size: 2.2rem;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: white;
+            margin-top: -20px;
+            font-size: 1.2rem;
+            font-family: Riona;
+            border-radius: 20px;
+            margin: 30px;
+        }
+
+        #icon2 ul li button:hover {
+            color: blue;
         }
     </style>
 
 </head>
+
 <body>
     <div class="head">
         <div class="wraped">
             <div class="icon">
                 <a href="">flikart</a>
-                <a href=""><span id="ex">explore</span> <span id="more">plus<i class="fa-solid fa-star-half-stroke"></i></span> </a>
+                <a href=""><span id="ex">explore</span> <span id="more">plus<i
+                            class="fa-solid fa-star-half-stroke"></i></span> </a>
             </div>
             <div class="menu">
                 <form class="example" method="post">
                     <input type="text" placeholder="Search for product brand and more...." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
-               
-                
 
-                  </form> </div>
-                   <div class="menu1">
+
+
+                </form>
+            </div>
+            <div class="menu1">
                 <ul>
-                 <li><a href=""> <button type="submit" class="log">login</button></a>
-                     <a href="">become a seller</a>
-                    <a href=""> more <i class="fa-solid fa-chevron-down"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i>  card</a>
-                 </li>
+                    <li><a href=""> <button type="submit" class="log">login</button></a>
+                        <a href="">become a seller</a>
+                        <a href=""> more <i class="fa-solid fa-chevron-down"></i></a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i> card</a>
+                    </li>
                 </ul>
             </div>
         </div>
-            </div>
-            <div class="head2">
-                <div class="wraped2">
-                    <div id="icon2">
-                    <ul>
-                        <li> <button onclick="taba()">mobiles</button></li>
-                        <li> <button onclick="taba2()">application</button></li>
-                        <li> <button onclick="taba3()">man</button></li>
-                        <li> <button onclick="taba4()">women</button></li>
-                        <li> <button onclick="taba5()">child</button></li>
+    </div>
+    <div class="head2">
+        <div class="wraped2">
+            <div id="icon2">
+                <ul>
+                    <li> <button onclick="taba()">mobiles <i class="fa-solid fa-chevron-down"></i></button></li>
+                    <li> <button onclick="taba2()">tv & application <i class="fa-solid fa-chevron-down"></i></button></li>
+                    <li> <button onclick="taba3()">man <i class="fa-solid fa-chevron-down"></i></button></li>
+                    <li> <button onclick="taba4()">women <i class="fa-solid fa-chevron-down"></i></button></li>
+                    <li> <button onclick="taba5()">baby and kids <i class="fa-solid fa-chevron-down"></i></button></li>
 
-                           <!-- submenu -->
-                     <div id="first">
-                         <ul>
-                            
-                             <li><a href="">redmi</a></li>
-                             <li><a href="">realme</a></li>
-                             <li><a href="">samsung</a></li>
-                             <li><a href="">infinix</a></li>
-                             <li><a href="">vivo</a></li>
-                             <li><a href="">oneplus</a></li>
-                         </ul>
-                     </div>   
-                     <div id="second">
+                    <!-- submenu -->
+                    <div id="first">
                         <ul>
-                         
+                            <li><a href="">apple</a></li>
+                            <li><a href="">redmi</a></li>
+                            <li><a href="">honour</a></li>
+                            <li><a href="">realme</a></li>
+                            <li><a href="">samsung</a></li>
+                            <li><a href="">infinix</a></li>
+                            <li><a href="">techno</a></li>
+                            <li><a href="">poco</a></li>
+                            <li><a href="">oppo</a></li>
+                            <li><a href="">asus</a></li>
+                            <li><a href="">vivo</a></li>
+                            <li><a href="">oneplus</a></li>
+                        </ul>
+                    </div>
+                    <div id="second">
+                        <ul>
+
+                            <li><a href="">l.g.</a></li>
+                            <li><a href="">inverter</a></li>
+                            <li><a href="">ac & cooler</a></li>
+                            <li><a href="">microwave</a></li>
+                            <li><a href="">Vacuum cleaners</a></li>
+                           
+                            <li><a href="">heater</a></li>
+                            <li><a href="">led tv</a></li>
                             <li><a href="">television</a></li>
                             <li><a href=""> speakers</a></li>
                             <li><a href="">washing machine</a></li>
                             <li><a href="">hitachi</a></li>
                         </ul>
-                    </div> 
+                    </div>
                     <div id="third">
                         <ul>
                             <li><a href="">cloths</a></li>
                             <li><a href="">top wear</a></li>
                             <li><a href="">t -shrirt</a></li>
                             <li><a href="">formal</a></li>
+                            <li><a href="">casual</a></li>
+                            <li><a href="">jeans</a></li>
+                            <li><a href="">jacket</a></li>
+                            
                         </ul>
-                    </div> 
+                    </div>
                     <div id="fourth">
                         <ul>
-                          
-                           <li><a href="">dress material</a></li>
+
+                            <li><a href="">dress material</a></li>
                             <li><a href="">sarees</a></li>
+                            <li><a href="">footwear</a></li>
+                            <li><a href="">heels</a></li>
+                         
+                            <li><a href="">makeup</a></li>
+                         
+                            
                         </ul>
-                    </div> 
+                    </div>
                     <div id="fifth">
                         <ul>
                             <li><a href="">toys</a></li>
-                            <li><a href="">soft toys</a></li>
+                            <li><a href="">shoes</a></li>
                             <li><a href="">puzzles</a></li>
                             <li><a href="">schools bags</a></li>
+                            <li><a href="">remote car</a></li>
+                            <li><a href="">books</a></li>
+                            <li><a href="">toys gun</a></li>
                         </ul>
-                    </div> 
-
                     </div>
-
-                </div>
 
             </div>
 
-
         </div>
-        <script>
-             function taba(){
-                    document.getElementById('first').style.display='block';
-                    document.getElementById('second').style.display='none';
-                    document.getElementById('third').style.display='none';
-                    document.getElementById('fourth').style.display='none';
-                    document.getElementById('fifth').style.display='none'
-                }
-                function taba2(){
-                    document.getElementById('first').style.display='none';
-                    document.getElementById('second').style.display='block';
-                    document.getElementById('third').style.display='none';
-                    document.getElementById('fourth').style.display='none';
-                    document.getElementById('fifth').style.display='none'
-                }
-                function taba3(){
-                    document.getElementById('first').style.display='none';
-                    document.getElementById('second').style.display='none';
-                    document.getElementById('third').style.display='block';
-                    document.getElementById('fourth').style.display='none';
-                    document.getElementById('fifth').style.display='none';}
 
-                function taba4(){
-                    document.getElementById('first').style.display='none';
-                    document.getElementById('second').style.display='none';
-                    document.getElementById('third').style.display='none';
-                    document.getElementById('fourth').style.display='block';
-                    document.getElementById('fifth').style.display='none';}
+    </div>
 
-                function taba5(){
-                    document.getElementById('first').style.display='none';
-                    document.getElementById('second').style.display='none';
-                    document.getElementById('third').style.display='none';
-                    document.getElementById('fourth').style.display='none';
-                    document.getElementById('fifth').style.display='block';}
-                    </script>
+
+    </div>
+    <script>
+        function taba() {
+            document.getElementById('first').style.display = 'block';
+            document.getElementById('second').style.display = 'none';
+            document.getElementById('third').style.display = 'none';
+            document.getElementById('fourth').style.display = 'none';
+            document.getElementById('fifth').style.display = 'none'
+        }
+        function taba2() {
+            document.getElementById('first').style.display = 'none';
+            document.getElementById('second').style.display = 'block';
+            document.getElementById('third').style.display = 'none';
+            document.getElementById('fourth').style.display = 'none';
+            document.getElementById('fifth').style.display = 'none'
+        }
+        function taba3() {
+            document.getElementById('first').style.display = 'none';
+            document.getElementById('second').style.display = 'none';
+            document.getElementById('third').style.display = 'block';
+            document.getElementById('fourth').style.display = 'none';
+            document.getElementById('fifth').style.display = 'none';
+        }
+
+        function taba4() {
+            document.getElementById('first').style.display = 'none';
+            document.getElementById('second').style.display = 'none';
+            document.getElementById('third').style.display = 'none';
+            document.getElementById('fourth').style.display = 'block';
+            document.getElementById('fifth').style.display = 'none';
+        }
+
+        function taba5() {
+            document.getElementById('first').style.display = 'none';
+            document.getElementById('second').style.display = 'none';
+            document.getElementById('third').style.display = 'none';
+            document.getElementById('fourth').style.display = 'none';
+            document.getElementById('fifth').style.display = 'block';
+        }
+    </script>
 </body>
+
 </html>
