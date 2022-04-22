@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggle</title>
+    <style>
+       .img{ height:140px;margin:auto;margin-left: 3%;border: 4px solid orchid;
+         background-image: url(child\ om_wallpaper.jpg);
+       width:140px;position:absolute;}
+
+       .zoom1{ font-family: cursive; font-weight: 500; font-size: 1.3rem;
+        background-color: blue;
+    }
+    .zoom2{ font-family: cursive; font-weight: 500; font-size: 1.3rem; 
+        background-color: rgb(0, 128, 53);
+    }
+    button{
+        padding: 20px; border-radius: 30px; border: 2px solid white;margin-left: 3%;
+    }
+    </style>
+</head>
+<body>
+
+</head>
+<body>
+<br>
+<button class="zoom1">Start</button>
+<button class="zoom2">Animation</button>
+<br>
+<br>
+<div class="img"></div> <br>
+
+<br>
+
+
+</body>
+</html>
+
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $(".zoom1").click(function(){
+            var div = $("div");
+            div.animate({height: '+=100px', }, "slow");
+            div.animate({width: '+=140px', }, "slow");
+          });
+          $(".zoom2").click(function(){
+            var div = $("div");
+            div.animate({height: '-=100px', }, "slow");
+            div.animate({width: '-=140px', }, "slow");
+          });
+
+        });
+       
+        </script>     
+</body>
+</html>
