@@ -56,7 +56,6 @@
 
 <a href="https://manishdeveloper333.github.io/Projects/flipkart.html">20.Project-Flipkart</a>
 
-<a href="https://manishdeveloper333.github.io/zoom in-out.html"> 21.Project- Calender </a>
 
 
 
