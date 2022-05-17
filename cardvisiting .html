@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;color: white;text-transform: capitalize;
+        }
+
+            body{
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(110deg, yellow 0%, yellow 50%, #1fe5ff 50%, #1fe5ff 100% );
+        }
+        .left {
+           left:0;
+            background-color: #111;
+           width: 50%;height: 320px;  position: absolute;
+        }
+
+        .right {
+          right:0;
+            background-color:#d1d1d100;
+             width: 50%;height: 330px; position: absolute;
+       
+        }#top{  border: 3px solid green; width: 700px;min-height: 320px;display: block;
+            margin: auto;  position: relative;top: 150px;}
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+.centered{
+    text-align: center;line-height: 30px;
+}
+  input{
+            width: 50%; height: 40px;border: 2px solid deeppink ;  border-radius: 50px;
+        background:none;color: black;
+        transition: 0.40s;text-align: center;margin: 10px;
+        }
+        button{ border-radius: 50px;
+            padding: 10px;transition: 0.40s;background-color: rgba(139, 0, 139, 0.432);
+ }
+
+  button:hover{
+        border: 2px solid black;
+        background-color: #751fff;
+        box-shadow: 1px 0px 15px 6px #751fff;
+        transition: 0.50s;
+        color: white;
+    }
+      input:hover{
+        border: 2px solid black;
+        background-color: white;
+        box-shadow: 1px 0px 5px 6px #751fff;
+        transition: 0.50s;
+        color: #751fff;
+    }
+    #reg{
+        display: none;
+        margin-top: -30px;
+    }
+    h1{text-align: center;
+        color: red;line-height: 30px;margin-top:200px;
+    }
+     h1:hover{
+        transition: 0.50s; box-shadow: 1px 0px 5px 6px #751fff;
+        color: #751fff;}
+        marquee{
+             color: red;line-height: 30px;
+        }
+         marquee:hover{
+        transition: 0.50s; box-shadow: 1px 0px 5px 6px #751fff;
+        color: #751fff;}
+    </style>
+</head>
+<body>
+
+      
+        <div id="top">
+            <div class="left">
+                <div class="centered">
+                    <img src="profile.svg" alt="Avatar woman">
+                    <h2>Jane Flex</h2>
+                    <p>web developer</p>
+                    <p>graphics-shadow</p>
+                </div>
+            </div>
+        
+            <div class="right">
+                <div class="centered">
+               <br>
+                <div id="login">
+                    <form method="post">
+                        <input type="email" name="uid" placeholder="enter your email">
+                        <input type="password" name="number" placeholder="enter your password">
+                   
+                    </form>
+                    <br>
+                    <button>login</button>
+                    <br><br>
+                    <button onclick="user('r')">registration</button>
+                    
+        
+                </div>
+                <div id="reg">
+                    <form method="post">
+                        <input type="text" name="fname" placeholder="fname enter">
+                        <input type="text" name="lname" placeholder="lname enter">
+                        <input type="email" name="uid" placeholder="enter your email">
+                        <input type="password" name="number" placeholder="enter your password">
+                       
+                    </form>
+                    <button onclick="user('r')">registration</button>
+                </div>
+            </div></div></div>
+            <br>
+            <br>
+            <h1>visiting card</h1>
+            <br>
+            <marquee  direction="left">this is your visiting card dont share your personal detail to any one .A visiting card is a small paper card with a person's name on it. They were used to let someone know that another person
+            had come to their home for a visit. Some visiting cards had just a name on them.</marquee>
+            <h1>copyright &copy; 2022 manish </h1>
+        </div>
+        <script>
+            function user(opp) {
+                if (opp === 'r') {
+                    document.getElementById('login').style.display = 'none';
+                    document.getElementById('reg').style.display = 'block';
+                }
+               
+            }
+        </script>
+</body>
+</html>
