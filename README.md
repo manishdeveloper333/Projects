@@ -71,7 +71,7 @@
 
 <a href="https://manishdeveloper333.github.io/Projects/ms keyword.html">25.Project-keybord hover</a>
 
-<a href="https://manishdeveloper333.github.io/Projects/cardvisiting .html">26.Project-Viiting Card hover svg</a>
+<a href="https://manishdeveloper333.github.io/Projects/cardvisiting .html">26.Project-Visiting Card hover svg</a>
 
 
 
