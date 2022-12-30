@@ -45,7 +45,7 @@
 <a href="https://manishdeveloper333.github.io/javascript project-5.html"> 14. Project-onclick</a>
 
 
-<a href="https://manishdeveloper333.github.io/video_website.html"> 15. Project-video_website</a>
+<a href="https://manishdeveloper333.github.io/Projects/video_website.html"> 15. Project-video_website</a>
 
 <a href="https://manishdeveloper333.github.io/javascript poject 7-box position.html"> 16. Project-Button Box onclick</a>
 
